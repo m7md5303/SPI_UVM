@@ -1,0 +1,196 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top_uvm/DUT/R
+=== Design Unit: work.SPI_RAM
+=================================================================================
+
+Directive Coverage:
+    Directives                       3         3         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top_uvm/DUT/R/cover__assertion3         SPI_RAM Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv(61)
+                                                                                11 Covered   
+/top_uvm/DUT/R/cover__assertion2         SPI_RAM Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv(60)
+                                                                                17 Covered   
+/top_uvm/DUT/R/cover__assertion1         SPI_RAM Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv(59)
+                                                                                11 Covered   
+
+=================================================================================
+=== Instance: /top_uvm/DUT/S
+=== Design Unit: work.SPI_SLAVE
+=================================================================================
+
+Directive Coverage:
+    Directives                       9         9         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top_uvm/DUT/S/cover__assertion9         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(214)
+                                                                                25 Covered   
+/top_uvm/DUT/S/cover__assertion8         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(213)
+                                                                                 3 Covered   
+/top_uvm/DUT/S/cover__assertion7         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(212)
+                                                                                22 Covered   
+/top_uvm/DUT/S/cover__assertion6         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(211)
+                                                                                40 Covered   
+/top_uvm/DUT/S/cover__assertion5         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(210)
+                                                                                40 Covered   
+/top_uvm/DUT/S/cover__assertion4         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(209)
+                                                                                88 Covered   
+/top_uvm/DUT/S/cover__assertion3         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(208)
+                                                                                 9 Covered   
+/top_uvm/DUT/S/cover__assertion2         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(207)
+                                                                                40 Covered   
+/top_uvm/DUT/S/cover__assertion1         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(206)
+                                                                               477 Covered   
+
+=================================================================================
+=== Instance: /top_uvm/DUT
+=== Design Unit: work.SPI_Wrapper
+=================================================================================
+
+Directive Coverage:
+    Directives                       2         2         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top_uvm/DUT/cover__assertion2           SPI_Wrapper Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_WRAPPER.sv(34)
+                                                                               426 Covered   
+/top_uvm/DUT/cover__assertion1           SPI_Wrapper Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_WRAPPER.sv(33)
+                                                                                 9 Covered   
+
+=================================================================================
+=== Instance: /spi_coverage_collector_pkg
+=== Design Unit: work.spi_coverage_collector_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins          8         8         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_coverage_collector_pkg/spi_coverage_collector/cg 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                     8          8          -                      
+    missing/total bins:                                     0          8          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MISO                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zeros                                         723          1          -    Covered              
+        bin ones                                           32          1          -    Covered              
+    Coverpoint SS_N                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zeros                                         688          1          -    Covered              
+        bin ones                                          104          1          -    Covered              
+    Coverpoint RESET                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zeros                                          17          1          -    Covered              
+        bin ones                                          775          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ones,ones>                                 6          1          -    Covered              
+            bin <zeros,ones>                               92          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ss_n_high                          657                     -    Occurred             
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_coverage_collector_pkg/spi_coverage_collector/cg 
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                     8          8          -                      
+    missing/total bins:                                     0          8          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint MISO                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zeros                                         723          1          -    Covered              
+        bin ones                                           32          1          -    Covered              
+    Coverpoint SS_N                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zeros                                         688          1          -    Covered              
+        bin ones                                          104          1          -    Covered              
+    Coverpoint RESET                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zeros                                          17          1          -    Covered              
+        bin ones                                          775          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ones,ones>                                 6          1          -    Covered              
+            bin <zeros,ones>                               92          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ss_n_high                          657                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top_uvm/DUT/cover__assertion2           SPI_Wrapper Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_WRAPPER.sv(34)
+                                                                               426 Covered   
+/top_uvm/DUT/cover__assertion1           SPI_Wrapper Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_WRAPPER.sv(33)
+                                                                                 9 Covered   
+/top_uvm/DUT/R/cover__assertion3         SPI_RAM Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv(61)
+                                                                                11 Covered   
+/top_uvm/DUT/R/cover__assertion2         SPI_RAM Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv(60)
+                                                                                17 Covered   
+/top_uvm/DUT/R/cover__assertion1         SPI_RAM Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv(59)
+                                                                                11 Covered   
+/top_uvm/DUT/S/cover__assertion9         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(214)
+                                                                                25 Covered   
+/top_uvm/DUT/S/cover__assertion8         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(213)
+                                                                                 3 Covered   
+/top_uvm/DUT/S/cover__assertion7         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(212)
+                                                                                22 Covered   
+/top_uvm/DUT/S/cover__assertion6         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(211)
+                                                                                40 Covered   
+/top_uvm/DUT/S/cover__assertion5         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(210)
+                                                                                40 Covered   
+/top_uvm/DUT/S/cover__assertion4         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(209)
+                                                                                88 Covered   
+/top_uvm/DUT/S/cover__assertion3         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(208)
+                                                                                 9 Covered   
+/top_uvm/DUT/S/cover__assertion2         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(207)
+                                                                                40 Covered   
+/top_uvm/DUT/S/cover__assertion1         SPI_SLAVE Verilog  SVA  D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv(206)
+                                                                               477 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 14
+
+Total Coverage By Instance (filtered view): 100.00%
+

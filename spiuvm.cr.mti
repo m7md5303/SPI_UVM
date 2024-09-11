@@ -1,0 +1,209 @@
+{D:/Digital Electronics/Verification Diploma/Assignments/UVM/TOP_UVM.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/TOP_UVM.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/TOP_UVM.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package TOP_UVM_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_test_pkg
+-- Importing package spi_env_pkg
+-- Importing package spi_agent_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_sequence_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_monitor_Pkg
+-- Importing package spi_config_pkg
+-- Importing package spi_scoreboard_pkg
+-- Importing package spi_coverage_collector_pkg
+-- Importing package spi_sequence_pkg
+-- Compiling module top_uvm
+
+Top level modules:
+	top_uvm
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/topmod.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/topmod.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module topmod
+
+Top level modules:
+	topmod
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequencer.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_scoreboard_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/scoreboard.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequence_item_pkg
+-- Importing package spi_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sv_unit
+-- Compiling module SPI
+
+Top level modules:
+	SPI
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_WRAPPER.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_WRAPPER.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_Wrapper
+
+Top level modules:
+	SPI_Wrapper
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_SLAVE.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_SLAVE_sv_unit
+-- Compiling module SPI_SLAVE
+
+Top level modules:
+	SPI_SLAVE
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/config.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/config.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/agent.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/agent.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_sequence_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_monitor_Pkg
+-- Importing package spi_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/cvrcllctr.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/cvrcllctr.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_coverage_collector_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/cvrcllctr.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/test.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/test.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_env_pkg
+-- Importing package spi_agent_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_sequence_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_monitor_Pkg
+-- Importing package spi_config_pkg
+-- Importing package spi_scoreboard_pkg
+-- Importing package spi_coverage_collector_pkg
+-- Importing package spi_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_monitor_Pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/monitor.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/env.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/env.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_agent_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_sequence_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_monitor_Pkg
+-- Importing package spi_config_pkg
+-- Importing package spi_scoreboard_pkg
+-- Importing package spi_coverage_collector_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/GOLDEN_interface.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/GOLDEN_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface golden_inter_ref
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/rram.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/rram.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module rram
+
+Top level modules:
+	rram
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_RAM.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_RAM
+
+Top level modules:
+	SPI_RAM
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_INTERFACE.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/SPI_INTERFACE.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface spi_inter
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/driver.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/driver.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequence_item.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequence_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_sequence_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequence_item.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Electronics/Verification Diploma/Assignments/UVM/sequence.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_sequence_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}
